@@ -7,7 +7,7 @@ public class UnitData : ScriptableObject
     [SerializeField] private int _health;
     [SerializeField] private float _speed;
 
-    public string unitName => this._unitName;
-    public int health => this._health;
-    public float speed => this._speed;
+    public string UnitName => _unitName;
+    public int Health => _health;
+    public float Speed => _speed;
 }

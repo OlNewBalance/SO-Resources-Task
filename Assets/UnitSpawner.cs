@@ -14,6 +14,6 @@ public class UnitSpawner : MonoBehaviour
 
     private void SpawnUnit(UnitData data)
     {
-        Debug.Log($"Спавним {data.unitName} | HP: {data.health} | Speed: {data.speed}");
+        Debug.Log($"Спавним {data.UnitName} | HP: {data.Health} | Speed: {data.Speed}");
     }
 }
